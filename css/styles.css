@@ -1,0 +1,296 @@
+/*Ajustes basicos de estilo*/
+body {
+    font-family: 'poppins', sans-serif !important;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+}
+
+/*Estilos de letra de los encabezados*/
+h1{
+    color: #fafafa;
+    text-shadow: 2px 2px 4px #8c2ab6;
+}
+
+/*Estilo de Titulos*/
+h2, h3 {
+    display:block;;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #8c2ab6;
+}
+
+/*Estilos para formularios*/
+form {
+    background: #d98bbd;
+    padding: 25px;
+    margin:20px auto;
+    border-radius: 30px;
+    max-width: 500px;
+    box-shadow: 0 0 10px #f2a0b6;
+    display: block;
+    text-align: center;
+    color:#ffffff;
+}
+
+/*Estilos del encabezado*/
+header {
+    background: linear-gradient(0deg, #f2a0b6, #8c2ab6);
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius:25px;
+    margin: 0 auto; 
+    color:#ffffff;
+    text-shadow: 2px 2px 4px #8c2ab6;
+}
+
+/*Estilos del contenido*/
+main {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/*Estilo del menú navegador*/
+nav {
+    margin-bottom: 20px;
+}
+
+/*Arreglos de la imagen de tarjeta*/
+img {
+    max-width:500px;
+    height: auto;
+    border-radius:10%;
+    display:block;
+    margin: 0 auto;
+    margin-bottom:50px;
+}
+
+/*Estilo del pie de página*/
+footer {
+    background: linear-gradient(180deg, #f2a0b6, #8c2ab6);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}   
+
+/*Estilo de los botones generales*/
+button {
+    background-color: #f2a0b6;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+/*Estilo del acordeon de bootstrap de registro de usuario*/
+#accordionFlushExample .accordion-button {
+    background-color: #f2a0b6;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 20px;
+    max-width: 500px;
+    margin: 0 auto;}
+
+    /*Estilo de registro*/
+    .noRegistro {
+    color:#8c2ab6;
+    margin-top: 30px;
+    max-width:280px;
+    margin: 0 auto;
+}
+
+/*Estilo de contornos de formularios*/
+label {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+
+
+}
+
+/*Estilo del botón "inicio sesión"*/
+.btn.btn-inicio {
+    background-color: #f2a0b6;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 20px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+} 
+
+.nav-item {
+    margin: 0 15px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    ;
+}
+
+/*Estilo de los iconos del menú*/
+.nav-link.active {
+    margin: 0 15px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.nav-link i {
+    font-size: 24px;
+    vertical-align: middle;
+    margin-right: 6px;
+    color:#ffffff;
+    text-shadow: 2px 2px 4px #8c2ab6;
+
+    /*Estilo de la lista de contactos*/
+}#listaContacto {
+    max-width: 300px;
+    margin: 0 auto 20px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #8c2ab6;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    color:#ffffff;
+    background-color: #d98bbd;
+}
+
+/*Estilo del título de contactos*/
+.tituloContacto {
+    color: #8c2ab6;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/*Estilo de los campos de banco y tipo de cuenta*/
+#banco {
+    background-color:#d98bbd;
+    color:#ffffff;
+    border: 1px solid #8c2ab6;
+}
+
+#tipoCuenta {
+    background-color:#d98bbd;
+    color:#ffffff;
+    border: 1px solid #8c2ab6;
+}
+
+/*Estilo del boton "enviar dinero"*/
+.btn.btn-success {
+    background-color: #ffffff!important;
+    color: #8c2ab6 !important;
+    border: none;
+    padding: 10px 70px;
+    border-radius: 5px;
+    margin:20px;
+}
+
+/*Estilo del boton "guardar destinatario"*/
+.guardar {
+    background-color: #ffffff!important;
+    color: #8c2ab6 !important;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+/*Estilo del boton "volver"*/
+.btn.btn-primary {
+    background-color: #d98bbd!important;
+    color: #ffffff !important;
+    border: none;
+    padding: 10px 70px;
+    border-radius: 5px;
+    text-shadow: 2px 2px 4px #8c2ab6;
+}
+
+/*Estilo del título principal*/
+.titulo {
+    color: #ffffff;
+    Display: block;
+    text-align: center;
+    padding: 20px;
+    background-color:#f2a0b6;
+    border-radius:25px;
+    text-shadow: 2px 2px 4px #8c2ab6;
+
+}
+
+/*Estilo del saldo a mostrar*/
+.card-text {
+    color:#8c2ab6;
+    text-shadow: 1px 1px 2px #e2bec7;
+    padding: 20px;
+}
+
+/*Estilo de los metodos de pago*/
+#metodoPago {
+    background-color:#d98bbd;
+    color:#ffffff;
+    border: 1px solid #8c2ab6;
+}
+
+/*Estilo tabla*/
+.table {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.btn-inicio-sesion {
+    background-color: #ffffff!important;
+    color: #8c2ab6 !important;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin:20px;
+}
+
+/*estilo registro dia de nacimiento*/
+#cumpleanos {
+    background-color:#d98bbd;
+    color:#ffffff;
+    border: 1px solid #8c2ab6;
+}
+
+.tituloRegistro {
+    display:block;
+    text-align:center;
+    
+}
+
+/*Estilo pagina de inicio*/
+.login-layout {
+    display:flex;
+    height:max-content;
+}
+
+.login-info {
+    flex:1;
+    padding: 80px;
+    background: radial-gradient(circle, #f2a0b6, #d98bbd);
+    border-radius:20px;
+    border: 5px solid #e2bec7
+}
+
+.login-form {
+    flex:1;
+    padding: 150px 0px;
+    
+}
+
+/*estilo icono banco index*/
+.icono-bank {
+    font-size:70px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #8c2ab6;
+
+}
