@@ -193,7 +193,7 @@ Abre un Pull Request
 
 
 👤 Autor
-Kary Alett
+Karina Alejandra Trujillo
 
 GitHub: @kary-alett
 Proyecto: AlkeWallet_ProyectoModulo02
